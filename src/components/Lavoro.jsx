@@ -2,7 +2,7 @@ import React from 'react';
 
 import { A11y, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {  testing, testing1, testing10, testing11, testing12, testing13, testing14, testing15, testing16, testing17, testing18, testing19, testing2, testing20, testing3, testing4, testing5, testing6, testing7, testing8, testing9 } from "../assets";
+import { testing, testing1, testing10, testing11, testing12, testing13, testing14, testing15, testing16, testing17, testing18, testing19, testing2, testing20, testing3, testing4, testing5, testing6, testing7, testing8, testing9} from "../assets";
 import styles, { layout } from "../style";
 
 
@@ -28,13 +28,74 @@ const FeatureCard = () => (
           1275: { slidesPerView: 4 },
         }}
       >
-{Array.from({ length: 19 }, (_, i) => i + 2).map(number => (
 
-<SwiperSlide   key={number} className=' !flex justify-center items-center'>
-                <img src={`src/assets/testing${number}.png`} alt=""  className=' '/>
+<SwiperSlide    className=' !flex justify-center items-center'>
+                <img src={testing} alt=""  className=' '/>
                 </SwiperSlide>
 
-))}
+
+                <SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing2} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing3} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing4} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing5} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing6} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing7} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing8} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing9} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing10} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing11} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing12} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing13} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing14} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing15} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing16} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing17} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing18} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing19} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing20} alt="" className=''/>
+</SwiperSlide>
+
+
+
+
+
             </Swiper>
 </div>
 </div>

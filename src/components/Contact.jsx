@@ -36,9 +36,9 @@ const Contact = () => {
     <div className={`${styles.flexCenter} flex-1 flex flex-col  sm:mt-0 mt-10`}>
     <form ref={form} onSubmit={sendEmail}>
 
-      <div className="flex-1 flex flex-col sm:self-end self-start	font-montserrat xs:my-3">
+      <div className=" flex-col sm:self-end self-start	font-montserrat xs:my-3">
 
-      <input type="text" name='user_name' placeholder="Nome..." className="sm:w-[28rem] w-auto p-3  my-2    rounded-lg border-0	"/>
+      <input type="text" name='user_name' placeholder="Nome..." className=" w-full p-3  my-2    rounded-lg border-0	"/>
       <input type="text" name='user_email' placeholder="Email..." className="w-full p-3  my-2    rounded-lg border-0	"/>
       <input type="text" name='user_phone' placeholder="Numero Di Telefono..." className="w-full p-3  my-2   rounded-lg border-0	"/>
       <textarea rows={5} name='message'  type="text" placeholder="Per Cosa Desiderate Un Preventivo?" className="w-full p-3  my-2    rounded-lg border-0	"></textarea>
