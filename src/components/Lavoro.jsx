@@ -2,7 +2,7 @@ import React from 'react';
 
 import { A11y, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { testing } from "../assets";
+import { testing, testing1 } from "../assets";
 import styles, { layout } from "../style";
 
 
@@ -13,8 +13,6 @@ import 'swiper/css/pagination';
 
 
 
-const firstHalf = testing.slice(0, 19);
-const images = Array.from({ length: 20 }, (_, i) => `${firstHalf}${i + 1}.png`);
 
 
 const FeatureCard = () => (
@@ -30,14 +28,12 @@ const FeatureCard = () => (
           1275: { slidesPerView: 4 },
         }}
       >
-      {images.map((imgSrc, index) => (
 
-<SwiperSlide   key={index}  className=' !flex justify-center items-center'>
-                <img src={imgSrc} alt=""  className=' '/>
+<SwiperSlide    className=' !flex justify-center items-center'>
+                <img src={testing1} alt=""  className=' '/>
                 </SwiperSlide>
 
 
-))}
 <SwiperSlide     className=' !flex justify-center items-center'>
                 <img src={testing} alt=""  className=' '/>
                 </SwiperSlide>
