@@ -27,7 +27,7 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    title: "PITTURA EDIL",
+    title: "PITTURA EDILE",
     icon:PITTURE,
     number:number1,
 
@@ -118,7 +118,7 @@ export const stats = [
   {
     id: "stats-2",
     title: "Anni Di Esperienza",
-    value: "+8",
+    value: "+4",
   },
   {
     id: "stats-3",

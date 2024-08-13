@@ -2,7 +2,7 @@ import React from 'react';
 
 import { A11y, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { testing, testing1, testing10, testing11, testing12, testing13, testing14, testing15, testing16, testing17, testing18, testing19, testing2, testing20, testing3, testing4, testing5, testing6, testing7, testing8, testing9} from "../assets";
+import { testing, testing21, testing1, testing10, testing11, testing12, testing13, testing14, testing15, testing16, testing17, testing18, testing19, testing2, testing20, testing3, testing4, testing5, testing6, testing7, testing8, testing9} from "../assets";
 import styles, { layout } from "../style";
 
 
@@ -32,6 +32,13 @@ const FeatureCard = () => (
 <SwiperSlide    className=' !flex justify-center items-center'>
                 <img src={testing} alt=""  className=' '/>
                 </SwiperSlide>
+                <SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing21} alt="" className=''/>
+    </SwiperSlide>
+
+                <SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing1} alt="" className=''/>
+    </SwiperSlide>
 
 
                 <SwiperSlide className='!flex justify-center items-center'>

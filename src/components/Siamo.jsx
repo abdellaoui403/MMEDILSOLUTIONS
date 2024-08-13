@@ -19,8 +19,7 @@ const Siamo = () => (
       Nuova Anima ai  <br className="sm:block hidden" /> Vostri Spazi
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-3`}>
-      MM EDIL SOLUTIONS, saprà dare al vostro immobile nuova anima, rimodernando spazi usurati dal tempo e adattandoli al vostro stile. Ridiamo vita alla vostra vecchia casa, ufficio o azienda al giusto prezzo con la massima professionalità.
-
+      MM EDIL SOLUTIONS è dedicata a trasformare i vostri ambienti, infondendo nuova anima e carattere ai vostri spazi. siamo in grado di creare atmosfere uniche che rispecchiano la vostra personalità e le vostre esigenze. Che si tratti di un rinnovamento di interni o esterni, il nostro team di esperti assicura un risultato di alta qualità, capace di valorizzare ogni dettaglio e di rendere i vostri spazi più accoglienti e vivaci. Lasciatevi ispirare dal potere trasformativo del colore per dare una nuova vita al vostro ambiente.
 
       </p>
 

@@ -42,6 +42,7 @@ import testing18 from "./testing18.png";
 import testing19 from "./testing19.png";
 import testing2 from "./testing2.png";
 import testing20 from "./testing20.png";
+import testing21 from "./testing21.png";
 import testing3 from "./testing3.png";
 import testing4 from "./testing4.png";
 import testing5 from "./testing5.png";
@@ -56,6 +57,6 @@ import twitter from "./twitter.svg";
 export {
     CAPPOTTI, CARTONGESSO, Herophoto, Intersect, LEGNO, PITTURE, STUCCATURE, arrowUp, bill, close, discount, facebook, image2, instagram,
     linkedin, logo, menu, number1, number2, number3, number4, number5, number6, people01,
-    people02, people03, person, piastrelle, quotes, robot, testing, testing1, testing10, testing11, testing12, testing13, testing14, testing15, testing16, testing17, testing18, testing19, testing2, testing20, testing3, testing4, testing5, testing6, testing7, testing8, testing9, twitter
+    people02, people03, person, piastrelle, quotes, robot, testing, testing1, testing10, testing11, testing12,testing21, testing13, testing14, testing15, testing16, testing17, testing18, testing19, testing2, testing20, testing3, testing4, testing5, testing6, testing7, testing8, testing9, twitter
 };
 
