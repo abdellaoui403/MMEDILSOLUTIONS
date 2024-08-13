@@ -39,7 +39,7 @@ const FeatureCard = () => (
 
 ))}
 <SwiperSlide     className=' !flex justify-center items-center'>
-                <img src={testing1} alt=""  className=' '/>
+                <img src={testing} alt=""  className=' '/>
                 </SwiperSlide>
 
             </Swiper>
