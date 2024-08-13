@@ -30,13 +30,72 @@ const FeatureCard = () => (
       >
 
 <SwiperSlide    className=' !flex justify-center items-center'>
+                <img src={testing} alt=""  className=' '/>
+                </SwiperSlide>
+
+
+                <SwiperSlide     className=' !flex justify-center items-center'>
                 <img src={testing1} alt=""  className=' '/>
                 </SwiperSlide>
 
+                <SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing2} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing3} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing4} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing5} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing6} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing7} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing8} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing9} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing10} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing11} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing12} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing13} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing14} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing15} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing16} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing17} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing18} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing19} alt="" className=''/>
+</SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing20} alt="" className=''/>
+</SwiperSlide>
 
-<SwiperSlide     className=' !flex justify-center items-center'>
-                <img src={testing} alt=""  className=' '/>
-                </SwiperSlide>
 
             </Swiper>
 </div>
