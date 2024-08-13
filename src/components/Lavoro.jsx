@@ -35,8 +35,12 @@ const FeatureCard = () => (
 <SwiperSlide   key={index}  className=' !flex justify-center items-center'>
                 <img src={imgSrc} alt=""  className=' '/>
                 </SwiperSlide>
-                      ))}
 
+
+))}
+<SwiperSlide     className=' !flex justify-center items-center'>
+                <img src={testing1} alt=""  className=' '/>
+                </SwiperSlide>
 
             </Swiper>
 </div>
