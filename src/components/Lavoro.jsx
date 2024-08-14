@@ -48,11 +48,12 @@ const FeatureCard = () => (
     <img src={testing3} alt="" className=''/>
 </SwiperSlide>
 <SwiperSlide className='!flex justify-center items-center'>
-    <img src={testing4} alt="" className=''/>
-</SwiperSlide>
-<SwiperSlide className='!flex justify-center items-center'>
     <img src={testing5} alt="" className=''/>
 </SwiperSlide>
+<SwiperSlide className='!flex justify-center items-center'>
+    <img src={testing4} alt="" className=''/>
+</SwiperSlide>
+
 <SwiperSlide className='!flex justify-center items-center'>
     <img src={testing6} alt="" className=''/>
 </SwiperSlide>
@@ -82,9 +83,6 @@ const FeatureCard = () => (
 </SwiperSlide>
 <SwiperSlide className='!flex justify-center items-center'>
     <img src={testing15} alt="" className=''/>
-</SwiperSlide>
-<SwiperSlide className='!flex justify-center items-center'>
-    <img src={testing16} alt="" className=''/>
 </SwiperSlide>
 <SwiperSlide className='!flex justify-center items-center'>
     <img src={testing17} alt="" className=''/>
