@@ -28,7 +28,7 @@ Eccellenza E Cura In Ogni Dettaglio.
     </div>
 
     <div className={layout.sectionImg}>
-        <img src={Intersect} alt="billing" className="w-[100%] h-[100%]" />
+        <img src={Intersect} alt="billing" className="w-[100%] " />
     </div>
     </section>
 );
