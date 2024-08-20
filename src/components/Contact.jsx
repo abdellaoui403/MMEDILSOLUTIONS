@@ -30,12 +30,7 @@ const Contact = () => {
     <section id="contact" className={`${styles.flexStart} ${styles.marginY} sm:${styles.padding} xs:pl-20 pt-10 md:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
       <h2 className={`${styles.heading2} text-[30px]`}>Richiedi il nostro servizio con un primo preventivo gratuito!</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Mmedilsolutions@gmail.com
-      </p>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Mmedilsolutions@gmail.com
-      </p>
+      
 </div>
     <div className={`${styles.flexCenter} flex-1 flex flex-col  sm:mt-0 mt-10`}>
     <form ref={form} onSubmit={sendEmail}>
