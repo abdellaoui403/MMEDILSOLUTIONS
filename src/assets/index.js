@@ -51,11 +51,13 @@ import testing7 from "./testing7.png";
 import testing8 from "./testing8.png";
 import testing9 from "./testing9.png";
 import twitter from "./twitter.svg";
+import call from "./call.svg";
+import email from "./email.svg";
 
 
 
 export {
-    CAPPOTTI, CARTONGESSO, Herophoto, Intersect, LEGNO, PITTURE, STUCCATURE, arrowUp, bill, close, discount, facebook, image2, instagram,
+    CAPPOTTI, email,call ,CARTONGESSO, Herophoto, Intersect, LEGNO, PITTURE, STUCCATURE, arrowUp, bill, close, discount, facebook, image2, instagram,
     linkedin, logo, menu, number1, number2, number3, number4, number5, number6, people01,
     people02, people03, person, piastrelle, quotes, robot, testing, testing1, testing10, testing11, testing12,testing21, testing13, testing14, testing15, testing16, testing17, testing18, testing19, testing2, testing20, testing3, testing4, testing5, testing6, testing7, testing8, testing9, twitter
 };

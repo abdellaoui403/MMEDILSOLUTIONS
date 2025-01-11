@@ -1,5 +1,7 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
+import { call, email } from "../assets";
+
 import styles from "../style";
 
 
@@ -29,13 +31,21 @@ const Contact = () => {
   return (
     <section id="contact" className={`${styles.flexStart} ${styles.marginY} sm:${styles.padding} xs:pl-20 pt-10 md:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
-      <h2 className={`${styles.heading2} text-[30px]`}>Richiedi il nostro servizio con un primo preventivo gratuito!</h2>
-      
+      <h2 className={`${styles.heading2}  text-[30px]`}>Richiedi il nostro servizio con un primo preventivo gratuito!</h2>
+      <div className='flex  items-center mt-3 '>   
+<img src={email} alt="Mmedilsolutions" className="h-[30px] mr-2"  />
+<span className='text-[18px]'> mmedilsolutions@gmail.com</span>
+</div>
+
+<div className='flex  items-center mt-3 '>   
+<img src={call} alt="Mmedilsolutions" className="h-[30px] mr-2"  />
+<span className='text-[18px]'> 340 402 3740 | 351 555 0160</span>
+</div>
 </div>
     <div className={`${styles.flexCenter} flex-1 flex flex-col  sm:mt-0 mt-10`}>
     <form ref={form} onSubmit={sendEmail}>
 
-      <div className=" flex-col sm:self-end self-start	font-montserrat xs:my-3">
+      <div className=" flex-col sm:self-end self-start	font-montserrat xs:my-3 xs:w-[95%]">
 
       <input type="text" name='user_name' placeholder="Nome..." className=" w-full p-3  my-2    rounded-lg border-0	"/>
       <input type="text" name='user_email' placeholder="Email..." className="w-full p-3  my-2    rounded-lg border-0	"/>

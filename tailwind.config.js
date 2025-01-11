@@ -8,6 +8,7 @@ module.exports = {
         secondary: "#D13B41",
         dimWhite: "rgba(53, 57, 56, 0.7)",
         dimBlue: "rgba(209, 59, 65, 0.1)",
+
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
